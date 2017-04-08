@@ -2,9 +2,9 @@
 
 
 class Stack {
-  constructor() {
-    this.items = [];
-  }
+    constructor(name) {
+        this.name = name;
+    }
 }
 
 module.exports = Stack;
